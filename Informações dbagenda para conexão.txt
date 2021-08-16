@@ -1,0 +1,27 @@
+Informações Banco de Dados Agenda
+URL:
+127.0.0.1:3306/dbagenda
+
+User:
+root
+
+password:
+281024
+
+
+
+
+
+
+Código utilizado para criar o banco de dados:
+
+create database dbagenda;
+show databases;
+use dbagenda;
+create table contatos(
+idcon int primary key auto_increment, 
+nome varchar (50) not null,
+fone varchar (15) not null,
+email varchar (50)
+);
+describe contatos;
